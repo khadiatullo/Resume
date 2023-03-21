@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    background: rgb(182, 177, 177);
+}
+h2{
+    color: #ff0000;
+}
+
+.card{
+    background: rgb(0, 160, 213);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ff0000;
+    border-radius: 15px;
+
+}
+
+#hobby, #work, #course{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card h2{
+    padding-left: 3px;
+}
+
+.conteiner{
+    max-width: 700px;
+    margin: auto;
+}
+
+img{
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px rgba(255, 0, 0, 0.5);
+}
+
+a{
+    color: rgb(65, 65, 224);
+    text-decoration: none;
+
+}
+a:hover{
+    color: rgb(115, 110, 197);
+    
+}
+
+.btn{
+    background: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.btn:hover{
+    font-size: 20px;
+}
+
+.cool{
+    margin-bottom: 0;
+}
+
+.info-text{
+    margin-left: 30px;
+}
+
+.info-text p{
+    margin: 0;
+    color: rgb(76, 72, 72);
+}
+
+
+table tr td:nth-child(even){
+     background: #948eeb;
+}
+
+.info{
+    display: flex;
+
+}
+
+form{
+    background: #aca9a9;
+    
+}
+
+form h2{
+    color: black;
+    text-align: center;
+}
+
+.name-email{
+    display: flex;
+}
+
+.email{
+    margin-left: 100px;
+    width: 50%;
+}
+.name{
+    margin-left: 4px;
+    width: 50%;
+}
+
+input{
+   border: none;
+   background: none;
+   outline: none;
+   padding: 5px 0px 5px;
+ 
+}
+
+hr{
+    height: 2px;
+    background-color: #c9c4c4;
+}
+
+.message textarea{
+    width: 100%;
+}
+ 
+textarea{
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 8px 0px 5px;
+}
+
+.message{
+    padding-left: 4px;
+}
+
+@media(max-width:400px){
+    .conteiner{
+        font-size: 10px;
+    
+    }
+    .form{
+        width: 10px;
+    }
+    .name{
+        width: 30%;
+    }
+    .email{
+        width: 30%;
+    }
+}
+
+
+
+
+
+
